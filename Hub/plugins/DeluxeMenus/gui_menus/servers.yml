@@ -1,0 +1,40 @@
+menu_title: '&8» &b&lAETHERIA &8- &7Select a Server'
+open_command: servers
+register_command: true
+size: 27
+
+items:
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: ' '
+    slots: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]
+    priority: 2
+
+  survival:
+    material: GRASS_BLOCK
+    slot: 11
+    priority: 1
+    display_name: '&a&lSurvival'
+    lore:
+      - '&7Build, explore and survive.'
+      - '&7Protected claims and rollback.'
+      - ''
+      - '&eClick to join!'
+    left_click_commands:
+      - '[message] &7Connecting to &aSurvival&7...'
+      - '[close]'
+      - '[connect] survival'
+
+  minigames:
+    material: DIAMOND_SWORD
+    slot: 15
+    priority: 1
+    hide_attributes: true
+    display_name: '&d&lMinigames'
+    lore:
+      - '&7Compete in arena games.'
+      - ''
+      - '&cComing soon!'
+    left_click_commands:
+      - '[message] &cMinigames are not open yet. Check back soon!'
+      - '[close]'

@@ -1,0 +1,2 @@
+   java -Xms512M -Xmx512M -XX:+UseG1GC -jar velocity.jar
+   pause

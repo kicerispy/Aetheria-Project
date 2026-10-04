@@ -1,0 +1,91 @@
+[14:38:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.12.1+1-LTS; Eclipse Adoptium Temurin-21.0.12.1+1) on Windows 11 10.0 (amd64)
+[14:38:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
+[14:38:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:38:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[14:38:13] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - AetheriaCore (2.1.0), AetheriaHub (1.0.0), DeluxeMenus (1.14.1-Release), PlaceholderAPI (2.12.3), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.12+829a4a4)
+[14:38:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:38:19] [ServerMain/INFO]: Loaded 1290 recipes
+[14:38:20] [ServerMain/INFO]: Loaded 1399 advancements
+[14:38:20] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[14:38:20] [Server thread/INFO]: Loading properties
+[14:38:20] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[14:38:20] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:38:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:38:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:38:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
+[14:38:22] [Server thread/INFO]: Default game type: ADVENTURE
+[14:38:22] [Server thread/INFO]: Generating keypair
+[14:38:22] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25566
+[14:38:22] [Server thread/INFO]: Using default channel type
+[14:38:22] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[14:38:22] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[14:38:22] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[14:38:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@739f1092]
+[14:38:23] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[14:38:23] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[14:38:23] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-Release
+[14:38:23] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version! The following Item options will not work: nbt_int, nbt_ints, nbt_string and nbt_strings.
+[14:38:23] [Server thread/INFO]: [AetheriaHub] Loading server plugin AetheriaHub v1.0.0
+[14:38:23] [Server thread/INFO]: [AetheriaCore] Loading server plugin AetheriaCore v2.1.0
+[14:38:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:38:23] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[14:38:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:38:23] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:38:24] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[14:38:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:38:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:38:25] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[14:38:25] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[14:38:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:38:25] [Server thread/INFO]: Preparing level "aetheria_hub"
+[14:38:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:38:26] [Server thread/INFO]: Time elapsed: 354 ms
+[14:38:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:38:26] [Server thread/INFO]: Time elapsed: 139 ms
+[14:38:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:38:27] [Server thread/INFO]: Time elapsed: 453 ms
+[14:38:27] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[14:38:27] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:38:27] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[14:38:27] [Server thread/INFO]: [WorldGuard] (aetheria_hub) TNT ignition is PERMITTED.
+[14:38:27] [Server thread/INFO]: [WorldGuard] (aetheria_hub) Lighters are PERMITTED.
+[14:38:27] [Server thread/INFO]: [WorldGuard] (aetheria_hub) Lava fire is PERMITTED.
+[14:38:27] [Server thread/INFO]: [WorldGuard] (aetheria_hub) Fire spread is UNRESTRICTED.
+[14:38:27] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'aetheria_hub'
+[14:38:27] [Server thread/INFO]: [WorldGuard] (aetheria_hub_nether) TNT ignition is PERMITTED.
+[14:38:27] [Server thread/INFO]: [WorldGuard] (aetheria_hub_nether) Lighters are PERMITTED.
+[14:38:27] [Server thread/INFO]: [WorldGuard] (aetheria_hub_nether) Lava fire is PERMITTED.
+[14:38:27] [Server thread/INFO]: [WorldGuard] (aetheria_hub_nether) Fire spread is UNRESTRICTED.
+[14:38:27] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'aetheria_hub_nether'
+[14:38:27] [Server thread/INFO]: [WorldGuard] (aetheria_hub_the_end) TNT ignition is PERMITTED.
+[14:38:27] [Server thread/INFO]: [WorldGuard] (aetheria_hub_the_end) Lighters are PERMITTED.
+[14:38:27] [Server thread/INFO]: [WorldGuard] (aetheria_hub_the_end) Lava fire is PERMITTED.
+[14:38:27] [Server thread/INFO]: [WorldGuard] (aetheria_hub_the_end) Fire spread is UNRESTRICTED.
+[14:38:27] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'aetheria_hub_the_end'
+[14:38:27] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:38:27] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-Release
+[14:38:27] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[14:38:28] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'minigames' in menu 'servers' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[14:38:28] [Server thread/INFO]: [DeluxeMenus] Registered command: servers for menu: servers
+[14:38:28] [Server thread/INFO]: [DeluxeMenus] 1 GUI menus loaded!
+[14:38:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-Release]
+[14:38:28] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[14:38:28] [Server thread/INFO]: [AetheriaHub] Enabling AetheriaHub v1.0.0
+[14:38:28] [Server thread/INFO]: [AetheriaHub] AetheriaHub enabled.
+[14:38:28] [Server thread/INFO]: [AetheriaCore] Enabling AetheriaCore v2.1.0
+[14:38:28] [Server thread/INFO]: [AetheriaCore] AetheriaCore enabled for hub.
+[14:38:28] [Server thread/INFO]: [spark] Starting background profiler...
+[14:38:28] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[14:38:28] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:38:28] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[14:38:28] [Server thread/INFO]: Done preparing level "aetheria_hub" (2.629s)
+[14:38:28] [Server thread/INFO]: Starting remote control listener
+[14:38:28] [Server thread/INFO]: Thread RCON Listener started
+[14:38:28] [Server thread/INFO]: RCON running on 127.0.0.1:25575
+[14:38:28] [Server thread/INFO]: Running delayed init tasks
+[14:38:28] [Server thread/INFO]: Done (17.400s)! For help, type "help"
+[14:38:28] [Server thread/INFO]: Timings Reset
+[14:38:41] [User Authenticator #0/INFO]: UUID of player hauntedguy1989 is fc453d82-d497-41eb-928c-6eb64cc273c4
+[14:38:43] [Server thread/INFO]: hauntedguy1989[/127.42.12.103:56166] logged in with entity id 11 at ([aetheria_hub]34.5, 132.0, 114.5)
+[14:40:14] [Server thread/INFO]: hauntedguy1989 lost connection: Disconnected

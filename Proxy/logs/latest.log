@@ -1,0 +1,13 @@
+[14:38:11] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 4.2.1-SNAPSHOT (git-7fc49913-b36)...
+[14:38:11] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[14:38:12] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[14:38:12] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[14:38:12] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[14:38:12] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[14:38:12] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1.03s)!
+[14:38:41] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] hauntedguy1989 (/127.42.12.103:64809) has connected
+[14:38:41] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] hauntedguy1989 -> hub has connected
+[14:40:14] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] hauntedguy1989 -> survival has connected
+[14:40:14] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] hauntedguy1989 -> hub has disconnected
+[14:40:19] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] hauntedguy1989 (/127.42.12.103:64809) has disconnected
+[14:40:19] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] hauntedguy1989 -> survival has disconnected

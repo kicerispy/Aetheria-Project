@@ -1,0 +1,36 @@
+# AetheriaCore 2.1
+# Set server-name separately on each backend: hub or survival.
+server-name: minigames
+
+bridge:
+  url: http://127.0.0.1:8787
+  secret: DC3517EE9FA2C596441E084506557D5C54D8AE1E82A66FD3
+  chat-enabled: true
+  events-enabled: false
+
+navigation:
+  proxy-enabled: true
+  hub-command: "server hub"
+  survival-command: "server survival"
+  minigames-command: "server minigames"
+
+hub:
+  protection: true
+  hide-join-quit-messages: true
+  selector:
+    enabled: true
+    item: COMPASS
+    slot: 4
+    name: "&bAetheria Navigator"
+  spawn-on-join: true
+
+survival:
+  hide-join-quit-messages: false
+  spawn-on-first-join: true
+  give-guide-item: false
+
+messages:
+  prefix: "&8[&bAetheria&8] &7"
+  no-proxy: "&cServer switching is not configured yet."
+  no-permission: "&cYou don't have permission to do that."
+  reloaded: "&aConfiguration reloaded."

@@ -1,0 +1,5 @@
+name: AetheriaHub
+version: 1.0.0
+main: net.aetheria.hub.HubPlugin
+api-version: '1.21'
+description: Hub spawn, void rescue and server selector compass.

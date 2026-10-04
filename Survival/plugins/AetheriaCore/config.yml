@@ -1,0 +1,7 @@
+# One plugin configuration per Paper server.
+# Keep the URL on localhost if the Discord bot runs on the same PC.
+server-name: survival
+
+bridge:
+  url: http://127.0.0.1:8787
+  secret: DC3517EE9FA2C596441E084506557D5C54D8AE1E82A66FD3
